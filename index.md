@@ -10,7 +10,7 @@ title: "Amy Lee's Tech Blog"
 }
 
 .category-list {
-  margin-left: 2.1em;
+  margin-left: 2em;
 }
 
 .post-date {
