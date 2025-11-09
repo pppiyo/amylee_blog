@@ -1,47 +1,44 @@
 ---
 layout: default
-title: Amy Lee's Tech Blog
+title: "Amy Lee's Tech Blog"
 ---
 
 <style>
-/* small tweaks just for this page */
+/* Sleek hacker-style index page */
 .category-group {
   margin-bottom: 2rem;
 }
 
 .category-title {
-  margin-bottom: 0.25rem;
+  color: #7fff00; /* neon hacker green */
+  margin-bottom: 0.6rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-transform: uppercase;
 }
 
 .category-list {
   list-style: none;
-  padding-left: 0;
-  margin-top: 0.5rem;
+  padding-left: 1.2rem;
+  margin: 0;
 }
 
 .category-list li {
-  margin: 0.15rem 0;
-}
-
-.category-list li::before {
-  content: ">> ";
-  margin-right: 0.35rem;
+  margin: 0.25rem 0;
 }
 
 .post-date {
-  opacity: 0.7;
-  margin-right: 0.35rem;
+  opacity: 0.6;
+  margin-right: 0.5rem;
 }
 </style>
-
-# Notes by topic
 
 {% assign categories = site.categories | sort %}
 {% for cat in categories %}
   {% assign cat_name = cat[0] %}
   {% assign posts = cat[1] | sort: "date" | reverse %}
   <div class="category-group">
-    <h2 class="category-title">{{ cat_name }}</h2>
+    <div class="category-title">{{ cat_name }}</div>
     <ul class="category-list">
       {% for post in posts %}
         <li>
