@@ -4,14 +4,14 @@ title: "Amy Lee's Tech Blog"
 ---
 
 <style>
-/* Sleek hacker-style index page */
+/* Clean, minimal, terminal-inspired styling */
 .category-group {
   margin-bottom: 2rem;
 }
 
 .category-title {
   color: #7fff00; /* neon hacker green */
-  margin-bottom: 0.6rem;
+  margin: 0.8rem 0 0.5rem 0;
   font-weight: bold;
   font-size: 1.1rem;
   text-transform: uppercase;
@@ -19,7 +19,7 @@ title: "Amy Lee's Tech Blog"
 
 .category-list {
   list-style: none;
-  padding-left: 1.2rem;
+  padding-left: 0; /* no indentation */
   margin: 0;
 }
 
@@ -38,7 +38,7 @@ title: "Amy Lee's Tech Blog"
   {% assign cat_name = cat[0] %}
   {% assign posts = cat[1] | sort: "date" | reverse %}
   <div class="category-group">
-    <div class="category-title">{{ cat_name }}</div>
+    <div class="category-title">./ {{ cat_name }}</div>
     <ul class="category-list">
       {% for post in posts %}
         <li>
