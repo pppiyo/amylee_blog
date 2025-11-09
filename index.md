@@ -10,13 +10,18 @@ title: "Amy Lee's Tech Blog"
 }
 
 .category-list {
-  margin-left: 2.4em;
+  margin-left: 2.1em;
 }
 
 .post-date {
   opacity: 0.7;
   margin-right: 0.4rem;
 }
+
+h2 {
+  font-size: 1rem;
+}
+
 </style>
 
 {% assign categories = site.categories | sort %}
