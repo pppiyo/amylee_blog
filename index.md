@@ -15,6 +15,7 @@ title: "Amy Lee's Tech Blog"
   font-weight: bold;
   font-size: 1.1rem;
   text-transform: uppercase;
+  padding-left: 0; /* no indentation */
 }
 
 .category-list {
