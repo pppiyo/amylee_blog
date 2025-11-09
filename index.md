@@ -4,11 +4,12 @@ title: Amy Lee's Tech Blog
 ---
 # ./ Notes
 <ul>
-  {% for post in site.posts %}
-    <li>
-      <span>{{ post.date | date: "%Y-%m-%d" }}</span>
-      &mdash;
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </li>
+  {% for category in site.categories %}
+    <h2>{{ category[0] | capitalize }}</h2>
+    <ul>
+      {% for post in category[1] %}
+        <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
   {% endfor %}
 </ul>
