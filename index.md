@@ -6,7 +6,7 @@ title: "Amy Lee's Tech Blog"
 <style>
 /* uppercase subtitles + more breathing room between categories */
 .category-group {
-  margin-bottom: 3rem; /* more space between groups */
+  margin-bottom: 5rem; /* more space between groups */
 }
 
 .category-list {
@@ -15,7 +15,7 @@ title: "Amy Lee's Tech Blog"
 
 .post-date {
   opacity: 0.7;
-  margin-right: 0.4rem;
+  margin-right: 0.2rem;
 }
 
 h2 {
