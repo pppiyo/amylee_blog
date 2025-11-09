@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "CCNA Notes"
 date: 2025-11-09
 categories: [Network]
