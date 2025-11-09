@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Amy Lee's Tech Blog
-# ./ Posts
 ---
+# ./ Posts
 <ul>
   {% for post in site.posts %}
     <li>
