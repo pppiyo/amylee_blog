@@ -2,7 +2,6 @@
 layout: default
 title: Amy Lee's Tech Blog
 ---
-# ./ Notes
 <ul>
   {% for category in site.categories %}
     <h2>{{ category[0] | capitalize }}</h2>
