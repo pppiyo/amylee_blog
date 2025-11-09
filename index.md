@@ -6,7 +6,7 @@ title: "Amy Lee's Tech Blog"
 <style>
 /* uppercase subtitles + more breathing room between categories */
 .category-group {
-  margin-bottom: 1rem; /* more space between groups */
+  /* margin-bottom: 1rem; /* more space between groups */ */
 }
 
 .category-list {
