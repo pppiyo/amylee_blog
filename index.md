@@ -1,4 +1,4 @@
 ---
-title: LangChain Notes
+title: Amy Lee's Tech Blog
 ---
 
