@@ -5,7 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-         <style>
+    <style>
+      .tagline-row {
+        display: flex;
+        align-items: center;
+        gap: 1rem;          /* space between text and button */
+        margin-top: 0.1rem; /* keep things tight */
+      }
+      
+      .tagline-row h2 {
+        margin: 0;
+      }
+    </style>
+
+         <!-- <style>
       .header-flex {
         display: flex;
         justify-content: space-between;
@@ -18,22 +31,21 @@
       .header-right {
         margin-bottom: 0.3rem;
       }
-      </style>
+      </style> -->
     {% include head-custom.html %}
 
 {% seo %}
   </head>
   <body>
     <header>
-      <div class="container header-flex">
-        <div class="header-left">
-          <a id="a-title" href="{{ '/' | relative_url }}">
-            <h1>{{ site.title | default: site.github.repository_name }}</h1>
-          </a>
-          <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-        </div>
+      <div class="container">
+        <a id="a-title" href="{{ '/' | relative_url }}">
+          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        </a>
     
-        <div class="header-right">
+        <div class="tagline-row">
+          <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+    
           {% if site.show_downloads %}
             <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
             <a href="{{ site.github.tar_url }}" class="btn">Download as .tar.gz</a>
