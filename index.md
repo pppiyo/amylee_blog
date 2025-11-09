@@ -2,7 +2,7 @@
 layout: default
 title: Amy Lee's Tech Blog
 ---
-# ./ Posts
+# ./ Notes
 <ul>
   {% for post in site.posts %}
     <li>
