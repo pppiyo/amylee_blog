@@ -14,8 +14,10 @@ Currently, the company maintains three product lines: open-source **LangChain, L
 
 ### [LangChain](https://docs.langchain.com/oss/python/langchain/overview)
 - Open-source ecosystem, the core responsibility lies in **scaling ecosystem management**, which involves close collaboration with a large number of partners.
+
 ### [LangGraph](https://docs.langchain.com/oss/python/langgraph/overview)
 - Current efforts are focused on **scalability** and **improving** the integrated development environment (**IDE**) and **debugging** **capabilities for agents**.
+
 ### [LangSmith](https://www.langchain.com/langsmith/observability)
 - With the continued growth in **production workloads**, the team remains committed to **enhancing its scalability** as well.
 
