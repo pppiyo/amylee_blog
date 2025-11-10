@@ -19,6 +19,12 @@ Currently, the company maintains three product lines: open-source **LangChain, L
 ### **LangSmith**
 - With the continued growth in **production workloads**, the team remains committed to **enhancing its scalability** as well.
 
+## [LangChain vs LangGraph](https://docs.langchain.com/oss/python/langchain/overview)
+"**LangChain** is the easiest way to start building agents and applications powered by LLMs. With under 10 lines of code, you can connect to OpenAI, Anthropic, Google, and more. LangChain provides a pre-built agent architecture and model integrations to help you get started quickly and seamlessly incorporate LLMs into your agents and applications.We recommend you use LangChain if you want to quickly build agents and autonomous applications. 
+
+Use **LangGraph**, our low-level agent orchestration framework and runtime, when you have **more advanced needs that require a combination of deterministic and agentic workflows, heavy customization, and carefully controlled latency.**
+
+**LangChain agents are built on top of LangGraph** in order to provide durable execution, streaming, human-in-the-loop, persistence, and more. You do not need to know LangGraph for basic LangChain agent usage."
 <img width="1080" height="717" alt="image" src="https://github.com/user-attachments/assets/ecd0d8f1-17b2-431f-a9ce-3a2254ead45a" />
 
 # Source
